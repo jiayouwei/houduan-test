@@ -47,7 +47,8 @@ public class IndexController {
 
     @GetMapping("hello")
     public String hello(){
-        return "hello 444444";
+        System.out.println("测试解决冲突");
+        return "hello SpringBoot00wetwet004545twet";
     }
 
     @GetMapping("rocketmq/send")
