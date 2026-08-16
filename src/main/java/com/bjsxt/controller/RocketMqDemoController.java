@@ -40,7 +40,7 @@ public class RocketMqDemoController {
     public String sendSync(@RequestParam(defaultValue = "同步消息") String message) {
         rocketMQTemplate.syncSend(SYNC_DESTINATION,
                 MessageBuilder.withPayload(message).build());
-        return "同步消息发送成功：" + message;
+        return "同步消息发送成功rqwrqwr：" + message;
     }
 
     /**
