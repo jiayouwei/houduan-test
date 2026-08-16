@@ -47,7 +47,8 @@ public class IndexController {
 
     @GetMapping("hello")
     public String hello(){
-        System.out.println("测试解决冲突");
+        System.out.println("测试解决冲突rrrr");
+          System.out.println("保留");
         return "hello SpringBoot00wetwet004545twet";
     }
 
