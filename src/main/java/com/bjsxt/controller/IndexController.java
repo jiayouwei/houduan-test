@@ -47,6 +47,7 @@ public class IndexController {
 
     @GetMapping("hello")
     public String hello(){
+        System.out.println("asfasf");
         return "hello SpringBoot00004545";
     }
 
